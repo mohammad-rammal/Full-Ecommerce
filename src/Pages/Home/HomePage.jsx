@@ -1,14 +1,21 @@
-import NavBarLogin from "../../Components/utilities/NavBarLogin"
-import Slider from "../../Components/Home/Slider"
+import Slider from '../../Components/Home/Slider';
+import HomeCategory from '../../Components/Home/HomeCategory';
+import CardProductsContainer from '../../Components/Product/CardProductsContainer';
+import DiscountSection from '../../Components/Home/DiscountSection';
+import BrandFeatures from '../../Components/Brand/BrandFeatures';
 
 const HomePage = () => {
-
   return (
-    <div className="font">
-      <NavBarLogin />
+    <div className="font" style={{minHeight: '670px'}}>
       <Slider />
+      <HomeCategory />
+      <CardProductsContainer title="Best Seller" btnTitle="More" />
+      <DiscountSection />
+      <CardProductsContainer title="Most Rated" btnTitle="More" />
+      <CardProductsContainer title="Latest fashion" btnTitle="More" />
+      <BrandFeatures title="The most famous brands" btnTitle="More" />
     </div>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;

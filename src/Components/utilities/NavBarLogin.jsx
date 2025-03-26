@@ -13,6 +13,7 @@ const NavBarLogin = () => {
           </a>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
         <Navbar.Collapse id="basic-navbar-nav">
           <FormControl type="search" placeholder="Search..." className="me-2 w-100 text-center" aria-label="Search" />
           <Nav className="me-auto">
