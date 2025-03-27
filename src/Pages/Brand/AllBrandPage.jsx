@@ -1,7 +1,7 @@
 import BrandContainer from '../../Components/Brand/BrandContainer';
 import Pagination from '../../Components/utilities/Pagination';
 
-const AllBrand = () => {
+const AllBrandPage = () => {
   return (
     <div className="min-vh-100">
       <BrandContainer />
@@ -9,4 +9,4 @@ const AllBrand = () => {
     </div>
   );
 };
-export default AllBrand;
+export default AllBrandPage;
