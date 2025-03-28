@@ -2,7 +2,7 @@ import {Col, Container, Row} from 'react-bootstrap';
 import CategoryHeader from '../../Components/Category/CategoryHeader';
 import SearchCountResult from '../../Components/utilities/SearchCountResult';
 import SideFilter from '../../Components/utilities/SideFilter';
-import CardProductsContainer from '../../Components/Product/CardProductsContainer';
+import CardProductsContainer from '../../Components/Products/CardProductsContainer';
 import Pagination from '../../Components/utilities/Pagination';
 
 const ShopProductsPage = () => {

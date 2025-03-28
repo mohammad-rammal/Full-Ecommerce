@@ -1,6 +1,6 @@
 import Slider from '../../Components/Home/Slider';
 import HomeCategory from '../../Components/Home/HomeCategory';
-import CardProductsContainer from '../../Components/Product/CardProductsContainer';
+import CardProductsContainer from '../../Components/Products/CardProductsContainer';
 import DiscountSection from '../../Components/Home/DiscountSection';
 import BrandFeatures from '../../Components/Brand/BrandFeatures';
 

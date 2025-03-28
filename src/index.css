@@ -261,10 +261,14 @@ body {
 
 /* products details page */
 .product-gallery-card {
-  height: 470px !important;
-  width: 370px;
+  height: 670px !important;
+  width: 370px !important;
   border-radius: 29px;
   background-color: #ffffff;
+}
+
+.image-gallery-slide .image-gallery-image {
+  width: 80% !important;
 }
 
 .cat-text {
@@ -274,7 +278,7 @@ body {
   font-weight: bold;
   letter-spacing: 0;
   line-height: 23px;
-  text-align: right;
+  text-align: left;
 }
 
 .cat-title {
@@ -282,7 +286,7 @@ body {
   font-family: "Work Sans", sans-serif;
   font-size: 14px;
   font-weight: normal;
-  text-align: right;
+  text-align: left;
 }
 
 .cat-rate {
