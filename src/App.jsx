@@ -17,6 +17,7 @@ import AdminAddBrandPage from './Pages/Admin/AdminAddBrandPage';
 import AdminAddCategoryPage from './Pages/Admin/AdminAddCategoryPage';
 import AdminAddSubCategoryPage from './Pages/Admin/AdminAddSubCategoryPage';
 import AdminAddProductPage from './Pages/Admin/AdminAddProductPage';
+import UserAllOrdersPage from './Pages/User/UserAllOrdersPage';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
           <Route path="/admin/addcategory" element={<AdminAddCategoryPage />} />
           <Route path="/admin/addsubcategory" element={<AdminAddSubCategoryPage />} />
           <Route path="/admin/addproduct" element={<AdminAddProductPage />} />
+          <Route path="/user/allorders" element={<UserAllOrdersPage />} />
         </Routes>
       </BrowserRouter>
       <Footer />
